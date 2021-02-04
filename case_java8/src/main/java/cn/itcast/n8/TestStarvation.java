@@ -10,7 +10,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
-@Slf4j(topic = "c.TestDeadLock")
+@Slf4j(topic = "c.TestStarvation")
 public class TestStarvation {
 
     static final List<String> MENU = Arrays.asList("地三鲜", "宫保鸡丁", "辣子鸡丁", "烤鸡翅");
